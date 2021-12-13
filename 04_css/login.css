@@ -1,0 +1,148 @@
+@charset "utf-8";
+body {
+  font-family: 'Noto Sans KR','맑은 고딕',돋움,sans-serif;
+}
+
+header , main , footer {
+  margin: 0 auto;
+  width: 980px;
+}
+
+/* --------------------------------header------------- */
+
+header {
+  height: 110px;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+header ul li {
+  display: inline;
+  text-align: center;
+}
+
+header ul li a , .topbar_03 li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------LOGLN|JOLN US------ */
+
+.topbar_01 {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+
+.topbar_01 li a {
+  font-size: 14px;
+}
+
+/* ------logo------ */
+
+.logo {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  cursor:pointer;
+}
+
+/* -----소개매뉴----- */
+
+.topbar_02 {
+  position: absolute;
+  right: 22px;
+  bottom: 20px;
+}
+
+.topbar_02 li a {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+/* -----hover 기능----- */
+
+.topbar li a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* --------------------------------main------------- */
+
+fieldset {
+  border: none;
+  width: 350px;
+  height: 550px;
+  box-sizing: border-box;
+  margin: 60px 0 0 130px ;
+  padding: 40px;
+  float: left;
+}
+
+fieldset , .img09 {
+  box-shadow: 8px 7px 20px 8px rgba(0,0,0,0.5);
+}
+
+/* -----JONS US----- */
+
+h1 {
+  margin-bottom: 40px;
+}
+
+/* -----Name,Email,Password----- */
+
+.user {
+  margin: 5px 0 25px 0;
+}
+
+h3 {
+  font-family: 'Song Myung', serif;
+  background-color: rgb(161, 191, 247);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h3:hover {
+  background-color: black;
+  color: white;
+}
+
+.pre {
+  float: right;
+}
+pre {
+  font-size: 12px;
+  margin-bottom: 4px;
+  float: right;
+}
+
+/* -----img----- */
+
+.img09 {
+  float: left;
+  margin:60px 0;
+}
+
+/* --------------------------------footer------------- */
+
+footer {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  
+}
+footer p:first-child {
+  background-color: rgb(221, 221, 221);
+}
+

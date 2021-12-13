@@ -1,0 +1,139 @@
+@charset "utf-8";
+body {
+  font-family: 'Noto Sans KR','맑은 고딕',돋움,sans-serif;
+}
+
+header , main , footer {
+  margin: 0 auto;
+  width: 980px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* --------------------------------header------------- */
+
+header {
+  height: 110px;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+/* ------LOGLN|JOLN US------ */
+
+.topbar_01 {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+
+.topbar_01 li a {
+  font-size: 14px;
+}
+
+/* ------logo------ */
+
+.logo {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  cursor:pointer;
+}
+
+/* -----소개매뉴----- */
+
+.topbar_02 {
+  position: absolute;
+  right: 22px;
+  bottom: 20px;
+}
+
+.topbar_02 li a {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+/* -----hover 기능----- */
+
+ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* --------------------------------main------------- */
+
+main {
+  position: relative;
+}
+.img_01 {
+  margin-top: 20px;
+}
+
+.con{
+  line-height: 1.5;
+}
+
+section {
+  width: 430px;
+}
+
+h4 {
+  margin-bottom: 12px;
+}
+
+h3 , h4 {
+  text-transform: capitalize;
+  font-family: 'Song Myung', serif;
+}
+
+section , .box1 , .box2 {
+  display: inline-block;
+  position: absolute;
+  margin: 0px;
+  top: 325px;
+}
+
+section {
+  left: 0;
+}
+
+.box1 {
+  right: 280px;
+}
+
+.box2 {
+  right: 0;
+}
+
+figcaption {
+  text-align: right;
+}
+
+/* --------------------------------footer------------- */
+
+footer {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  
+}
+footer p:first-child {
+  background-color: rgb(221, 221, 221);
+}
